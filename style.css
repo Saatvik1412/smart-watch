@@ -1,0 +1,77 @@
+body{
+  background-color: black;
+}
+.parent {
+    height: 450px;
+    width: 450px;
+    background-color: rgb(49, 3, 92);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px 5px rgb(98, 74, 121);
+  }
+  .t{
+ 
+    padding-left:105px;
+   
+  }
+  #time{
+    padding-top: 75px;
+    font-weight: bold;
+    font-size:80px;
+    font-family: 'Rockwell';
+    -webkit-transition:color 0.01s;
+    -moz-transition: color 0.01s;
+    transition:color 0.01s;
+   
+    text-shadow: 2px 2px white;
+
+    
+  }
+  #date{ 
+    padding-top: 40px;
+    color:rgb(118, 226, 245);
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    font-size:40px;
+    font-family: 'Rockwell';
+  }
+  * {
+  box-sizing: border-box;
+}
+.btn{
+  background-color:rgb(175, 30, 110);
+  border-radius: 50%;
+  border: 1px;
+  height: 50px;
+  width: 50px;
+}
+
+.btn:hover {background-color: rgb(126, 23, 79)}
+
+.btn:active {
+  background-color: rgb(255, 0, 140);
+  transform: translateY(4px);
+}
+.i{
+  padding-top: 5px;
+ height:40px;
+ width:40px;
+}
+#s1{
+  padding-left: 80px;
+}
+#s2{
+  padding-left: 25px;
+}
+#s3{
+  padding-left: 25px;
+}
+#s4{
+  padding-left: 25px;
+}
+#button{
+  padding-top: 50px;
+}
